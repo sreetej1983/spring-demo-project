@@ -16,6 +16,8 @@ import javax.persistence.Table;
 @Table(name = "cart")
 public class Cart {
 	
+	
+	//comments included
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cart_id")
